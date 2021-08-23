@@ -1,4 +1,5 @@
 # Image Interpolation 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYasinEnigma%2FImage_Interpolation&count_bg=%2379C83D&title_bg=%23302D2D&icon=husqvarna.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 Image interpolation refers to the resizing of a digital image. Interpolation is the problem of approximating the value of a function for a non-given point in some space when given the value of that function in points around (neighboring) that point. 
 
