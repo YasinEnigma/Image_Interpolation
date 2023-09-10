@@ -189,7 +189,7 @@ def bicubic_interpolation(img, dimension):
                 out = 0
                 for n in range(-1, 3):
                     for m in range(-1, 3):
-                        if ((xi + n < 0) or (xi + n >= img.shape[1]) or (yi + m < 0) or (yi + m >= img.shape[0])):
+                        if ((xi + n < 0) or (xi + n >= img.shape[0]) or (yi + m < 0) or (yi + m >= img.shape[1])):
                             continue
 
                         out += (img[xi+n, yi+m, c] * (W(u - n) * W(v - m)))
